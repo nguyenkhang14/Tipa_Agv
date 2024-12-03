@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/bluesea" /> <!-- Màu nền bình thường -->
+    <corners android:radius="16dp" /> <!-- Bo tròn góc -->
+
+    <stroke
+        android:color="@color/bluesea"
+        android:width="2dp" /> <!-- Đường viền -->
+
+    <!-- Khi nút được nhấn -->
+    <selector>
+        <item android:state_pressed="true" android:drawable="@drawable/blue_press" />
+        <item android:drawable="@color/primary" />
+    </selector>
+</shape>
